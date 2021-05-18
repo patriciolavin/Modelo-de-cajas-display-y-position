@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Patricio Lavin Pizarro" />
+    <!-- autor de la página -->
+    <title>Ejercicio 9</title>
+
+    <!-- ícono de la página -->
+    <link rel="shortcut icon" type=”image/png” href="assets/img/favicon.png">
+
+    <style media="screen" type="text/css">
+      * {
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      body {
+        width: 80vw;
+        height: 100vh;
+      }
+
+      ul.navbar {
+        list-style: none;
+        padding: 10px;
+      }
+
+      ul.navbar__top li {
+        background: black;
+        box-sizing: border-box;
+        float: left;
+        width: 80vw;
+        height: 5vh;
+        list-style: none;
+        font-size: 18pt;
+      }
+
+      ul.navbar__top li a {
+        color: #fff;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        font-family: sans-serif;
+      }
+
+      ul.navbar__top li a:hover {
+        background: #ff0000;
+      }
+
+      .menu {
+        background-color: #eeeeee;
+        width: 300px;
+        height: 200px;
+        font-family: sans-serif;
+        float: left;
+        position: relative;
+      }
+
+      .menu li {
+        margin-left: 80px;
+        line-height: 22px;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        margin-top: 20px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+      }
+
+      .navbar__bottom {
+        clear: both;
+        width: 100%;
+        font-family: sans-serif;
+        text-align: center;
+        color: white;
+        height: 30px;
+        padding: 10px;
+        background-color: #aaaaaa;
+      }
+
+      .section1 {
+        width: 100%;
+        float: right;
+        position: relative;
+      }
+
+      .section2 {
+        hyphens: auto;
+        width: 70%;
+        float: right;
+        position: absolute;
+        margin-left: 320px;
+        margin-right: 100px;
+        margin-top: 20px;
+        font-family: sans-serif;
+        padding-right: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <ul class="navbar__top">
+        <li><a href="#">Título página</a></li>
+      </ul>
+    </header>
+
+    <div class="section1">
+      <ul class="menu">
+        <h3>Menú</h3>
+        <li><a href="#">Item-1</a></li>
+        <li><a href="#">Item-2</a></li>
+        <li><a href="#">Item-3</a></li>
+        <li><a href="#">Item-4</a></li>
+        <li><a href="#">Item-5</a></li>
+      </ul>
+
+      <div class="section2">
+        <h2>Sub-título</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. <br /><br />
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
+      </div>
+    </div>
+
+    <div class="navbar__bottom">
+      <h2 href="#">© Todos los derechos reservados</h2>
+    </div>
+  </body>
+</html>

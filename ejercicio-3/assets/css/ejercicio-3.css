@@ -1,0 +1,112 @@
+.contenedor {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+
+.elementos {
+  width: 30%;
+  height: 200px;
+  border: solid 1px;
+  display: inline-block;
+  margin: 50px 40px 100px 60px;
+}
+
+
+.fondoRojo {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display: block;
+  position: relative; 
+}
+
+
+p {
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+
+
+.japon {
+  background: none;
+}
+
+.amarillo {
+  width: 100%;
+  height: 50%;
+  background-color: yellow;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.blanco-x {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.blanco-y {
+  width: 40px;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  left: 30%;
+}
+
+.eau-verde {
+  width: 75%;
+  height: 33.3%;
+  background-color: green;
+  position: absolute;
+  top: 0px;
+  bottom: 66.6%;
+  margin: auto;
+  left: 25%;
+}
+
+.eau-blanco {
+  width: 75%;
+  height: 33.3%;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  left: 25%;
+}
+
+.eau-negro {
+  width: 75%;
+  height: 33.4%;
+  background-color: black;
+  position: absolute;
+  top: 66.6%;
+  bottom: 0px;
+  margin: auto;
+  left: 25%;
+}
+
+.sol_naciente {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

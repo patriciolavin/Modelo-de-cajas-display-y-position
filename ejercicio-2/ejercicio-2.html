@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Patricio Lavin Pizarro" /> <!-- autor de la página -->
+    <title>Ejercicio 2</title>
+
+    <!-- ícono de la página -->
+    <link rel="shortcut icon" type=”image/png” href="assets/img/favicon.png">
+
+    <style media="screen" type="text/css">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .square {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      .square__red {
+        z-index: 1;
+        background-color: rgba(255, 0, 0, 0.5);
+      }
+
+      .square__green {
+        z-index: -1;
+        background-color: rgba(0, 255, 0, 0.5);
+        left: 25px;
+        position: absolute;
+        top: 25px;
+      }
+
+      .square__blue {
+        z-index: -2;
+        background-color: rgba(0, 0, 255, 0.5);
+        left: 50px;
+        position: absolute;
+        top: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="square">
+      <section class="square square__red"></section>
+      <section class="square square__green"></section>
+      <section class="square square__blue"></section>
+    </div>
+  </body>
+</html>
